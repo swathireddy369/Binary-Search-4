@@ -3,7 +3,6 @@
 // Did this code successfully run on Leetcode :yes
 // Any problem you faced while coding this :no
 // Your code here along with comments explaining your approach: take hashmap for adding elements and frquency which has smaller length then looping over the another array and checking whether element exist in hashmpa or not if exist adding that element to result array as well reducing count of element in hashmap and removing if it becoms zero.
-
 //Hashmap Solution
 
 class Solution {
@@ -44,6 +43,7 @@ class Solution {
 // Did this code successfully run on Leetcode :yes
 // Any problem you faced while coding this :no
 // Your code here along with comments explaining your approach: first i sort both arrays because i am baout use two pointers approach then i took pointers and by checking comparsion moving pointers in worest case the time complexity would be summation of two array lengths
+//two pointers
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         int n1=nums1.length;
@@ -81,7 +81,7 @@ class Solution {
 // Did this code successfully run on Leetcode :yes
 // Any problem you faced while coding this :no
 // Your code here along with comments explaining your approach:here for each elemt in smaller lentgh array i am doing binary search on anther array which has bigger length
-
+//binarySearch
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         int n1 = nums1.length;

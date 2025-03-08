@@ -5,7 +5,7 @@
 
 
 // Your code here along with comments explaining your approach: first i merged two arrays into one new array size as m+n (m is length of first array where as n is length of second array) then sorted later if the length of result array is odd then i take mid and return result[mid as median if it is not then i calculate mid and result[mid]+result[mid+1]/2 is become median.
-
+//brueteforce
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n1=nums1.length;
@@ -39,7 +39,7 @@ class Solution {
 
 
 // Your code here along with comments explaining your approach:here i have done binary search on smaller length array by doing  partiting on x parallay i have taken Y partition as well .finally if the length of two array is odd then i took max between left partion and min between right partion in simple words i have imagined this as one array if its od then i took just i take min of right two elements .here done binary search on one array only 
-
+//binary search
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n1 = nums1.length;
